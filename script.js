@@ -8,7 +8,7 @@ document.getElementById('flight-search-form').addEventListener('submit', functio
     fetch(`https://api.amadeus.com/v1/shopping/flight-offers?origin=${origin}&destination=${destination}&departureDate=${departureDate}`, {
         method: 'GET',
         headers: {
-            'Authorization': 'Bearer YOUR_ACCESS_TOKEN'
+            'Authorization': 'Bearer ebGRBXoTiv6Xqc9syywti8ohD0IQzI4O'
         }
     })
     .then(response => response.json())
